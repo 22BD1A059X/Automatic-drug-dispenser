@@ -1,1 +1,2 @@
 # Automatic-drug-dispenser
+An Automatic Drug Dispenser is a system that streamlines the process of dispensing medication. After a prescription is digitalized, a QR code is generated and sent to the patient. When the QR code is scanned, it provides a list of required medications. The patient can then scan the code at a dispensing machine, which verifies the prescription, processes payment, and automatically delivers the prescribed medicines, ensuring accuracy, convenience, and reduced wait times.
