@@ -39,7 +39,7 @@ const Signup = () => {
 
     const { name, email, password, cpassword } = user;
 
-    const res = await fetch("/register", {
+    const res = await fetch("https://automatic-drug-dispenser-sever.onrender.com/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
