@@ -9,7 +9,7 @@ const OldPrescriptions = () => {
   useEffect(() => {
     const fetchOldPrescriptions = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/old-prescriptions');
+        const response = await axios.get('https://automatic-drug-dispenser-sever.onrender.com/old-prescriptions');
         setOldPrescriptions(response.data);
       } catch (error) {
         console.error('Error fetching old prescriptions:', error);
