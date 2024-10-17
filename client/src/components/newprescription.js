@@ -25,7 +25,7 @@ const NewPrescription = () => {
       }
 
       // Save patient and medicine details
-      const response = await axios.post('http://localhost:5000/medicine/add-all-details', {
+      const response = await axios.post('https://automatic-drug-dispenser-sever.onrender.com/medicine/add-all-details', {
         name,
         email,
         symptoms,
